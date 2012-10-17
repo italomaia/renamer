@@ -1,10 +1,11 @@
-#!/usr/bin/env python
+#! /usr/bin/env python
 # -*- coding:utf-8 -*-
 
 #
 # Author: italo maia
 # Date: 17/10/2012
 # Based in code from pyrenamer project
+#
 
 import os
 import re
@@ -84,3 +85,4 @@ if __name__ == '__main__':
         file_only=args.file_only,
         dir_only=args.dir_only,
         print_only=args.print_only)
+
