@@ -7,5 +7,6 @@ setup(name='python-renamer',
     description='Pyrenamer for command-line.',
     author='Italo Maia',
     url='http://italomaia.com',
-    scripts=['renamer.py']
+    scripts=['renamer.py'],
+    install_requires=['argparse'],
 )
